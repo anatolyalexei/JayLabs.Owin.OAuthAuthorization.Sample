@@ -4,7 +4,7 @@ JayLabs.Owin.OAuthAuthorization.Sample
 Sample application, using an IIS Owin Host.
 
 The sample is a simple OWIN Web Api application running in an IIS Host.
-It serves a single file (index.html) that act's as a client.
+It serves a single file (index.html) that act as a client.
 
 
 ### Azure AD
