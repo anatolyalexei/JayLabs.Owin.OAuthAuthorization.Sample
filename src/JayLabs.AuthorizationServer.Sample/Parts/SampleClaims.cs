@@ -1,4 +1,4 @@
-﻿namespace JayLabs.AuthorizationServer.Sample
+﻿namespace JayLabs.AuthorizationServer.Sample.Parts
 {
     public static class SampleClaims
     {

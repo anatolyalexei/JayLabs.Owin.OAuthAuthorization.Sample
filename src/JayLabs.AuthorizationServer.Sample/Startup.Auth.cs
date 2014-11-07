@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using JayLabs.AuthorizationServer.Sample.Parts;
 using JayLabs.Owin.OAuthAuthorization;
 using JayLabs.Owin.OAuthAuthorization.Tokens;
 using Microsoft.Owin;

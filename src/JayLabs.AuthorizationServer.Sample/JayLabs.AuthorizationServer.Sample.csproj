@@ -134,11 +134,11 @@
   <ItemGroup>
     <Compile Include="Controllers\ConsentController.cs" />
     <Compile Include="Controllers\HelloController.cs" />
-    <Compile Include="SampleAppConfiguration.cs" />
-    <Compile Include="SampleClaims.cs" />
-    <Compile Include="SampleOptionsHelper.cs" />
-    <Compile Include="SampleOAuthBearerAuthenticationProvider.cs" />
-    <Compile Include="SampleJwtOptions.cs" />
+    <Compile Include="Parts\SampleAppConfiguration.cs" />
+    <Compile Include="Parts\SampleClaims.cs" />
+    <Compile Include="Parts\SampleOptionsHelper.cs" />
+    <Compile Include="Parts\SampleOAuthBearerAuthenticationProvider.cs" />
+    <Compile Include="Parts\SampleJwtOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.Auth.cs" />
     <Compile Include="Startup.cs" />

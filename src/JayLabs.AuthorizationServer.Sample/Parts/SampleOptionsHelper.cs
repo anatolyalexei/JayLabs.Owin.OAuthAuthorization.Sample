@@ -7,7 +7,7 @@ using JayLabs.Owin.OAuthAuthorization;
 using JayLabs.Owin.OAuthAuthorization.Tokens;
 using JwtRegisteredClaimNames = System.IdentityModel.Tokens.JwtRegisteredClaimNames;
 
-namespace JayLabs.AuthorizationServer.Sample
+namespace JayLabs.AuthorizationServer.Sample.Parts
 {
     public static class SampleOptionsHelper
     {

@@ -12,9 +12,18 @@ It serves a single file (index.html) that act's as a client.
 - Configure the callback to - yourhost/openid 
 - Add the client and tenant to web.config
 
+### Sample project
+
+- Controllers - Sample and Consent Controller
+- Parts - Custom parts for using the JayLabs.Owin.OAuthAuthorization package
+- Startup files - OWIN start up - the auth part is in an one file startup.auth.cs.
+
+
 ### Running the Sample
 
-In the Sample project directory.
+> Note the sample is pre-configured to be run **without https**.
+> 
+> To change this go to the *SampleAppConfiguration* class in the Parts folder.
 
 - run bower install
 - Open the project in Visual Studio and run

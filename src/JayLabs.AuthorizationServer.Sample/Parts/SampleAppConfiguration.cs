@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace JayLabs.AuthorizationServer.Sample
+namespace JayLabs.AuthorizationServer.Sample.Parts
 {
     public class SampleAppConfiguration
     {

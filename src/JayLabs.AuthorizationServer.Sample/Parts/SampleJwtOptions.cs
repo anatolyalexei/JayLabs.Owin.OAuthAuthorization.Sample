@@ -1,6 +1,6 @@
 ﻿using JayLabs.Owin.OAuthAuthorization.Tokens;
 
-namespace JayLabs.AuthorizationServer.Sample
+namespace JayLabs.AuthorizationServer.Sample.Parts
 {
     public static class SampleJwtOptions
     {
