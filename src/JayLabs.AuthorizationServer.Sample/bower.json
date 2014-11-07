@@ -1,0 +1,19 @@
+{
+  "name": "JayLabs.AuthorizationServer.Sample",
+  "version": "0.0.1",
+ "description": "Sample App",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jso": "~2.0.0"
+  }
+}

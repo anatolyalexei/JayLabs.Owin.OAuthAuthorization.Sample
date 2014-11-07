@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test</title>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/jso/build/jso.js"></script>
+    
+    <script type="text/javascript">
+
+        $(function() {
+            JSO.enablejQuery($);
+
+            var jso = new JSO({
+                client_id: "abc",
+                redirect_uri: "http://localhost:51199/",
+                authorization: " http://localhost:51199/authorize",
+                scope: 'jaylabs'
+            });
+
+            jso.callback();
+
+            $('#signin').click(function(e) {
+                jso.getToken(function (token) {
+                    //Trigger the flow....
+                }, {});
+            });
+
+            $('#signout').click(function (e) {
+                console.log("signing out");
+                jso.wipeTokens();
+            });
+
+            $('#fetch').click(function (e) {
+                console.log("fetching");
+                jso.ajax({
+                    url: "http://localhost:51199/hello",
+                    success: function (data) {
+                        console.log(data);
+                    }
+                });
+
+            });
+        });
+
+    </script>
+
+</head>
+    <body>
+        <button id="signin">Sign In</button>
+        <button id="signout">Sign Out</button>
+        <button id="fetch">Get data</button>
+
+    </body>
+</html>
