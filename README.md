@@ -25,7 +25,7 @@ It serves a single file (index.html) that act's as a client.
 > 
 > To change this go to the *SampleAppConfiguration* class in the Parts folder.
 
-- run bower install
+- Run bower install
 - Open the project in Visual Studio and run
 - Verify configuration in the index.html to match your localhost. 
 
