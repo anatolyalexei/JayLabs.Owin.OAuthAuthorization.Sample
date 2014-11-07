@@ -1,6 +1,4 @@
-﻿using System.Linq;
-using System.Net.Http;
-using System.Web.Http;
+﻿using System.Web.Http;
 using JayLabs.AuthorizationServer.Sample.Parts;
 using JayLabs.Owin.OAuthAuthorization;
 

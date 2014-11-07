@@ -30,11 +30,13 @@ namespace JayLabs.AuthorizationServer.Sample.Parts
                                     claim.Type == JwtRegisteredClaimNames.Email)
                                 .ToList();
 
+                        //NOTE rules for issuing claim not active. Modify for issuing claims.
                         bool hasEmailClaim = userIdentityTokens.Any(
                             claim =>
                                 claim.Type == JwtRegisteredClaimNames.Email &&
                                 claim.Value.EndsWith(".gov", StringComparison.InvariantCultureIgnoreCase));
 
+                        
                         //if (hasEmailClaim) {
                             claims.AddRange(userIdentityTokens);
                             claims.Add(new Claim(SampleClaims.IsGovermentEmployee, "true"));
