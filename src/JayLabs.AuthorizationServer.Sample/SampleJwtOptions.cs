@@ -28,7 +28,7 @@ namespace JayLabs.AuthorizationServer.Sample
         {
             get
             {
-                return new JwtOptions { Audience = Audience, Issuer = Issuer, JwtSigningKeyAsUtf8 = JwtSigningKeyAsUtf8, JwtTokenParameterName = JwtTokenHeader, SupportedScope = "JayLib" };
+                return new JwtOptions { Audience = Audience, Issuer = Issuer, JwtSigningKeyAsUtf8 = JwtSigningKeyAsUtf8, JwtTokenParameterName = JwtTokenHeader, SupportedScope = "JayLabs" };
             }
         }
     }
